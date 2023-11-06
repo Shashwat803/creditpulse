@@ -12,7 +12,7 @@ const Customer = sequelize.define('Customer',{
     last_name:DataTypes.STRING,
     age:DataTypes.INTEGER,
     phone_number:DataTypes.BIGINT,
-    month_salary:DataTypes.INTEGER,
+    monthly_salary:DataTypes.INTEGER,
     approved_limit:DataTypes.INTEGER
 },{
     timestamps:false
